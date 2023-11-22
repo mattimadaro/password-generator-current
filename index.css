@@ -53,7 +53,7 @@ button {
 }
 
 button:hover {
-    pointer: cursor;
+    cursor: pointer;
 }
 
 hr {
@@ -88,6 +88,10 @@ hr {
     line-height: 40px;
 }
 
+.pw-field:hover{
+    cursor: pointer;
+}
+
 #pw-slider {
     display: flex;
     align-items: center;
@@ -100,6 +104,10 @@ hr {
 
 input {
     accent-color: #4ADF86;
+}
+
+input:hover {
+    cursor: pointer;
 }
 
 #hint {
