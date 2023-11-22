@@ -21,14 +21,7 @@ function generatePasswords(){
         passwordElTwo.textContent = passwordTwo
 }
 
-// Copy password to clipboard
-function copyPw() {
-    let passwordElOneCopy = document.getElementById("pw-el-one").innerText
-    passwordElOneCopy.select()
-    document.execCommand("copy")
-    alert("Copied the text: " + passwordElOneCopy.innerText)
-}
-
+//Copy to clipboard feature
 // Copied from https://stackoverflow.com/questions/36639681/how-to-copy-text-from-a-div-to-clipboard
 function copyPwOne() {
     let range = document.createRange();
