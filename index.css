@@ -52,6 +52,10 @@ button {
     text-shadow: 0px 0px 1px black;
 }
 
+button:hover {
+    pointer: cursor;
+}
+
 hr {
     background: #2F3E53;
     width: 446px;
